@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium Automation Framework" duration-ms="76120" started-at="2019-04-29T01:42:38Z" finished-at="2019-04-29T01:43:54Z">
+    <groups>
+      <group name="Exercise">
+        <method signature="ItemPageTest.addItemToFavoriteTest()[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3]" name="addItemToFavoriteTest" class="com.walmartlabs.test.functional.Module1.ItemPageTest"/>
+        <method signature="ItemPageTest.increaseDecreaseQuantityTest()[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3]" name="increaseDecreaseQuantityTest" class="com.walmartlabs.test.functional.Module1.ItemPageTest"/>
+        <method signature="ItemPageTest.verifyAddToCartTest()[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3]" name="verifyAddToCartTest" class="com.walmartlabs.test.functional.Module1.ItemPageTest"/>
+      </group> <!-- Exercise -->
+    </groups>
+    <test name="com.walmartlabs.test.functional.Module1" duration-ms="76120" started-at="2019-04-29T01:42:38Z" finished-at="2019-04-29T01:43:54Z">
+      <class name="com.walmartlabs.test.functional.Module1.ItemPageTest">
+        <test-method status="PASS" signature="genericSetUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3]" name="genericSetUp" is-config="true" duration-ms="26098" started-at="2019-04-29T01:42:38Z" finished-at="2019-04-29T01:43:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.walmart.ca/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genericSetUp -->
+        <test-method status="PASS" signature="addItemToFavoriteTest()[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3]" name="addItemToFavoriteTest" duration-ms="8823" started-at="2019-04-29T01:43:04Z" finished-at="2019-04-29T01:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToFavoriteTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3]" name="tearDown" is-config="true" duration-ms="725" started-at="2019-04-29T01:43:13Z" finished-at="2019-04-29T01:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addItemToFavoriteTest status=SUCCESS method=ItemPageTest.addItemToFavoriteTest()[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="genericSetUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3]" name="genericSetUp" is-config="true" duration-ms="7671" started-at="2019-04-29T01:43:14Z" finished-at="2019-04-29T01:43:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.walmart.ca/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genericSetUp -->
+        <test-method status="PASS" signature="increaseDecreaseQuantityTest()[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3]" name="increaseDecreaseQuantityTest" duration-ms="9548" started-at="2019-04-29T01:43:21Z" finished-at="2019-04-29T01:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseDecreaseQuantityTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3]" name="tearDown" is-config="true" duration-ms="757" started-at="2019-04-29T01:43:31Z" finished-at="2019-04-29T01:43:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=increaseDecreaseQuantityTest status=SUCCESS method=ItemPageTest.increaseDecreaseQuantityTest()[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="genericSetUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3]" name="genericSetUp" is-config="true" duration-ms="11617" started-at="2019-04-29T01:43:32Z" finished-at="2019-04-29T01:43:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.walmart.ca/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genericSetUp -->
+        <test-method status="PASS" signature="verifyAddToCartTest()[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3]" name="verifyAddToCartTest" duration-ms="10092" started-at="2019-04-29T01:43:43Z" finished-at="2019-04-29T01:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3]" name="tearDown" is-config="true" duration-ms="756" started-at="2019-04-29T01:43:53Z" finished-at="2019-04-29T01:43:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddToCartTest status=SUCCESS method=ItemPageTest.verifyAddToCartTest()[pri:0, instance:com.walmartlabs.test.functional.Module1.ItemPageTest@7ec7ffd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmartlabs.test.functional.Module1.ItemPageTest -->
+    </test> <!-- com.walmartlabs.test.functional.Module1 -->
+  </suite> <!-- Selenium Automation Framework -->
+</testng-results>

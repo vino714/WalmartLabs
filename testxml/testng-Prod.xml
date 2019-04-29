@@ -1,28 +1,25 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Selenium Automation Framework">
-    
+	<parameter name="webSite" value="https://www.walmart.ca/" />
+	<parameter name="browser" value="CHROME" />
+	<parameter name="seleniumHost" value="localhost" />
+	<parameter name="seleniumPort" value="4444" />
+
+	<test name="com.walmartlabs.test.functional.Module1">
+
+	<groups>
+		<define name="Exercise Test">
+			<include name="Exercise" />
+		</define>
+		<run>
+			<include name="Exercise" />
+		</run>
+	</groups>
 
 
-  <parameter name="webSite" value="https://www.walmart.ca/"/>  
-   <parameter name="browser" value="CHROME"/>
-      <parameter name="seleniumHost" value="localhost"/>
-  <parameter name="seleniumPort" value="4444"/>    
-	
-    <test name="com.walmartlabs.test.functional.Module1">
-    
-     <groups>  
-		   <define name="Exercise Test">    
-		      <include name="Exercise"/>           
-		    </define>
-		    <run>
-		    	 <include name="Exercise"/>
-		    </run>
-	</groups>  
-  
-  
-    <packages>
-      <package name="com.walmartlabs.test.functional.Module1"/>
-    </packages>
+	<packages>
+		<package name="com.walmartlabs.test.functional.Module1" />
+	</packages>
 	</test>
 </suite> <!-- [walmartlabs Selenium Automated QA Test]] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Selenium Automation Framework]">
+  <parameter name="webSite" value="https://www.walmart.ca/"/>
+  <parameter name="seleniumPort" value="4444"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="seleniumHost" value="localhost"/>
+  <test thread-count="5" name="com.walmartlabs.test.functional.Module1(failed)">
+    <groups>
+      <run>
+        <include name="Exercise"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.walmartlabs.test.functional.Module1.ItemPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="genericSetUp"/>
+          <include name="verifyAddToCartTest"/>
+        </methods>
+      </class> <!-- com.walmartlabs.test.functional.Module1.ItemPageTest -->
+    </classes>
+  </test> <!-- com.walmartlabs.test.functional.Module1(failed) -->
+</suite> <!-- Failed suite [Selenium Automation Framework] -->
